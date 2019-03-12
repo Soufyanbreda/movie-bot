@@ -1,0 +1,19 @@
+{
+  "type": "object",
+  "properties": {
+    "botToken": {
+      "description": "The bot token received from the Telegram Botfather",
+      "type": "string"
+    },
+    "enabled": {
+      "description": "Enable or disable this channel for this bot",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "botToken",
+    "enabled"
+  ],
+  "$schema": "http://json-schema.org/draft-07/schema#"
+}
+
